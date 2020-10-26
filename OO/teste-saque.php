@@ -3,9 +3,7 @@
 require_once 'autoload.php';
 
 use Alura\Banco\Modelo\Conta\{Conta,Titular, ContaCorrente, ContaPoupanca};
-use Alura\Banco\Modelo\Cpf;
-use Alura\Banco\Modelo\Endereco;
-
+use Alura\Banco\Modelo\{Cpf, Endereco, Funcionario};
 
 $cpf = new Cpf('001.668.312-98');
 $end = new Endereco('Rua 1','Cidade Nova','Manaus','125');
